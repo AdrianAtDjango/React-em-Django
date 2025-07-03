@@ -17,9 +17,15 @@ function Home() {
       },
       {
         id: '5678',
-        name: 'Aline',
-        age: 22,
-        email:  'aline@email.com'
+        name: 'Wesley',
+        age: 28,
+        email:  'wesley@email.com'
+      },
+      {
+        id: '8765',
+        name: 'Julia',
+        age: 15,
+        email:  'julia@email.com'
       }
     ]
 
@@ -39,7 +45,7 @@ function Home() {
                 <li><span>Idade:</span> {user.age}</li>
                 <li><span>Email:</span> {user.email}</li>
               </div>
-              <div className=''>
+              <div className='btn'>
                 <button>
                   <img src={Trash} alt="Lixeira" />
                 </button>
